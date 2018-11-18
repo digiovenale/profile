@@ -1,0 +1,23 @@
+#mail:hover {
+  color:blue;
+  text-decoration:underline;
+}
+
+h1 {
+  color:blue;
+  text-decoration:underline;
+  text-align:center;
+}
+
+body {
+  color: #325050;
+  background: #fff;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 90%;
+  background-color: ghostwhite;
+}
+
+footer{
+  font-size: 80%;
+
+}
