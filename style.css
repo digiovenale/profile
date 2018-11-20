@@ -1,23 +1,53 @@
-#mail:hover {
-  color:blue;
-  text-decoration:underline;
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+  background: url("coffee.png") center no-repeat ghostwhite;
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 90%;
 }
 
 h1 {
-  color:blue;
-  text-decoration:underline;
+  color:maroon;
   text-align:center;
 }
 
-body {
-  color: #325050;
-  background: #fff;
-  font-family: 'Libre Baskerville', sans-serif;
-  font-size: 90%;
-  background-color: ghostwhite;
+h2{
+   text-align:center;
+}
+
+h2:hover {
+   color:sienna;
+   text-decoration:underline;
+}
+
+a {
+  color:sienna;
+}
+
+a:hover {
+   color:black;
+}
+
+.left {
+   float:left;
+   width:50%
+}
+
+.left p {
+   text-align: justify;
+   padding-left:1.5%;
+   padding-right:1.5%;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.left p:hover {
+   color:sienna;
 }
 
 footer{
   font-size: 80%;
-
 }
