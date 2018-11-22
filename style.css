@@ -51,3 +51,11 @@ a:hover {
 footer{
   font-size: 80%;
 }
+
+/* For responsive design */
+
+@media (max-width: 768px) {
+  .left {
+    width: 100%;
+  }
+}
